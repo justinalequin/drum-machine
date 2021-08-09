@@ -70,3 +70,55 @@ body {
     transform-origin: bottom center;
     animation: tick 1200ms ease-in-out infinite;
 }
+
+.beat-count{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+   
+}
+
+.userInstruments{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.hat {
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    background-color: darkgray;
+}
+
+.ick {
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    background-color: darkgray;
+
+}
+
+.nare {
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    background-color: darkgray;
+
+}
+
+.mutetoggles {
+    margin-top: 30px;
+}
+
+.mute {
+    width: 100px;
+    background-color: white;
+    opacity: 50%;
+}
+
+.unmute{
+    width: 100px;
+    background-color: white;
+    opacity: 50%;
+}

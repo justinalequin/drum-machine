@@ -8,10 +8,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class='beat-count'>
+    <h1 class='beat1'>1..</h1>
+    <h1 class='beat2'>2..</h1>
+    <h1 class='beat3'>3..</h1>
+    <h1 class='beat4'>4..</h1>
+    </div>
     <div class="tip">
         (Click anywhere to hear sound...)
     </div>
 
+    <div class='instruments'>
+<div class='userInstruments'>
+    <div class='instrument1'>
+   <button class="drum hat">Hat</button>
+   <div class='hatLoop'>
+       <input type='checkbox' class="hatLoop1 hi 1">
+       <input type='checkbox' class="hatLoop2 hi 2">
+       <input type='checkbox' class="hatLoop3 hi 3">
+       <input type='checkbox' class="hatLoop4 hi 4">
+   </div>       
+    </div>
+    
+    <div class="instrument2">
+     <button class="drum ick">Kick-Drum</button> 
+     <div class='kickLoop'>
+        <input type='checkbox' class="kickLoop1 kick 1">
+        <input type='checkbox' class="kickLoop2 kick 2">
+        <input type='checkbox' class="kickLoop3 kick 3">
+        <input type='checkbox' class="kickLoop4 kick 4">
+    </div>       
+    </div>
+
+    <div class="instrument2">
+        <button class="drum nare">Snare-Drum</button> 
+        <div class='snareLoop'>
+           <input type='checkbox' class="snareLoop1 snare 1">
+           <input type='checkbox' class="snareLoop2 snare 2">
+           <input type='checkbox' class="snareLoop3 snare 3">
+           <input type='checkbox' class="snareLoop4 snare 4">
+       </div>       
+       </div>
+   
+    
+</div>
     <div class="metronome">
         <div class="background-left"></div>
         <div class="background-center">
@@ -20,7 +60,11 @@
         <div class="background-right"></div>
         <div class="arm"></div>
     </div>
-
+</div>
+<div class='mutetoggles'>
+    <button class ='mute'>Mute</button>
+    <button class ='unmute'>Unmute</button>
+</div>
     <script src="main.js"></script>
 </body>
 </html>
